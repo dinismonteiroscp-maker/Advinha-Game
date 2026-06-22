@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adivinha o Número</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <h1 class="title1">Adivinha o Número</h1>
+    
+    <button class="button_question" id="Id_button_question">
+      <strong>Para que serve este site?</strong>
+    </button>
+
+    <div class="Div_question" id="Id_Div_question">
+    <p>
+        Este site está a ser criado para, além de explorar outra linguagem de programação, servir para melhorar a <strong>pesquisa binária</strong>.<br>
+    </p>
+
+    <h2 class="Strong_Binaria">E o que é uma pesquisa binária?</h2>
+    
+    <p>
+        A pesquisa binária é um algoritmo eficiente de "divisão e conquista" utilizado para localizar um item numa lista ordenada. Em vez de verificar cada elemento um a um (busca linear), ele reduz o espaço de pesquisa pela metade a cada etapa, tornando a busca extremamente rápida.
+    </p>
+
+    <h2 class="Strong_Funciona">Como Funciona</h2>
+    
+    <ol>
+        <li><strong>O meio:</strong> O algoritmo localiza o elemento que está exatamente no centro da lista.</li>
+        <li><strong>A comparação:</strong> Compara o elemento procurado (alvo) com o elemento central.</li>
+    </ol>
+
+    <ul>
+        <li>Se o alvo for <strong>igual</strong> ao meio, o item é encontrado e a busca termina.</li>
+        <li>Se o alvo for <strong>menor</strong> que o meio, a busca continua apenas na metade esquerda (valores menores).</li>
+       <li>Se o alvo for <strong>maior</strong> que o meio, a busca foca apenas na metade direita (valores maiores).</li>
+    </ul>
+</div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
