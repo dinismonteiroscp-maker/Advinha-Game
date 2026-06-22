@@ -1,0 +1,5 @@
+# Ignora a pasta de compilação do Rust
+target/
+
+# Ignora o arquivo de lock de dependências
+Cargo.lock

@@ -1,0 +1,12 @@
+[package]
+name = "jogo_rust"
+version = "0.1.0"
+edition = "2021"
+
+[[bin]]
+name = "jogo_rust"
+path = "rust/jogo.rs"
+
+[dependencies]
+rand = "0.9"
+inquire = "0.7"
